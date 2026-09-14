@@ -1,0 +1,17 @@
+# Python缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# 虚拟环境
+venv/
+env/
+
+# 前端vite缓存、npm依赖
+frontend/.vite/
+frontend/node_modules/
+
+# 用户本地测试数据
+user/*.json
+!user/.gitkeep
